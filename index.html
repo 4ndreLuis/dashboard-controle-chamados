@@ -11,17 +11,43 @@
     <meta name="theme-color" content="#121212" />
     <title>Sistema de Chamados | Dashboard</title>
     <link rel="icon" href="./assets/icons/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/states.css" />
   </head>
   <body>
     <header>
       <h1>Sistema de Chamados v1.0</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Todos</a></li>
-          <li><a href="#">Abertos</a></li>
-          <li><a href="#">Finalizados</a></li>
-        </ul>
-      </nav>
+      <p>Bem-vindo, "Nome aqui"</p>
     </header>
+    <div class="app-container">
+      <aside>
+        <nav>
+          <h2>Filtros</h2>
+          <ul>
+            <li><a href="#">Todos</a></li>
+            <li><a href="#">Abertos</a></li>
+            <li><a href="#">Finalizados</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main>
+        <section>
+          <form action="#">
+            <fieldset>
+              <label for="abrir-chamado">Nome do Chamado</label>
+              <input type="text" id="abrir-chamado" />
+              <button type="submit">Abir Chamado</button>
+            </fieldset>
+          </form>
+        </section>
+        <section aria-label="Lista de Chamados">
+          <ul>
+            <li></li>
+          </ul>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

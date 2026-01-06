@@ -1,1 +1,19 @@
 /* grid, estrutura da página */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-container {
+  display: flex;
+  flex: 1;
+}
+aside {
+  width: 250px;
+  background-color: var(--bg-side-bar);
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
