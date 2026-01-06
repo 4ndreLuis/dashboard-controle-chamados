@@ -1,1 +1,18 @@
 /* cards, botões, listas */
+.input-chamado {
+  padding: 10px;
+  background-color: var(--bg-main);
+  color: var(--text-bright);
+  border: 1px solid rgb(97, 80, 80);
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: rgb(69, 69, 235);
+}
